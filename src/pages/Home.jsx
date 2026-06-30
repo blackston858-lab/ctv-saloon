@@ -1,9 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-// import AboutPreview from "../components/AboutPreview";
-// import StylistsStrip from "../components/StylistsStrip";
-// import Testimonials from "../components/Testimonials";
-// import GalleryTeaser from "../components/GalleryTeaser";
+import SaloonGallery from "../components/SaloonGallery";
  import Footer from "../components/Footer";
 import ServicesCategory from "../components/ServicesCategory";
 import BarberTeamSection from "../components/BarberTeamSection";
@@ -12,6 +9,7 @@ import Testimonials from "../components/Testimonials";
 import PricingMenuSection from "../components/PricingMenuSection";
 import GroomingInsights from "../components/GroomingInsights";
 import Booking from "../components/Booking";
+ 
  
 const Home = () => {
   return (
@@ -25,10 +23,9 @@ const Home = () => {
         <PricingMenuSection/>
         <GroomingInsights />
         <Booking/>
-         {/* <AboutPreview />
-        <StylistsStrip />
-        <Testimonials />
-        <GalleryTeaser /> */}
+        
+        <SaloonGallery/>
+        
          <Footer />
       </div>
    );

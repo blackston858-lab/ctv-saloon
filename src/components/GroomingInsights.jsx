@@ -6,19 +6,19 @@ import { Link } from "react-router";
 const articles = [
   {
     title: "How to Maintain Your Beard Between Visits",
-    img: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&fit=crop&q=80",
+    img: "blog-image1.jfif",
   },
   {
     title: "Top 5 Hairstyles for Men in 2026",
-    img: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=400&fit=crop&q=80",
+    img: "blog-image2.jfif",
   },
   {
     title: "The Ultimate Guide to a Hot Towel Shave",
-    img: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&fit=crop&q=80",
+    img: "blog-image3.jfi.jfif",
   },
   {
     title: "Best Products for Healthy Hair",
-    img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=400&fit=crop&q=80",
+    img: "hairstyling.jfif",
   },
 ];
 

@@ -5,12 +5,12 @@ const Testimonials = () => {
     {
       name: "Michael Green",
       text: '"The best barber shop I have ever visited! Great service, friendly staff, and amazing results every time."',
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      avatar: "user1.avif",
     },
     {
       name: "David Wilson",
       text: '"Professional, clean, and stylish! Always leave feeling confident and refreshed."',
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      avatar: "user2.avif",
     },
   ];
 

@@ -21,6 +21,7 @@ const Navbar = () => {
     { name: "Services", path: "/services" },
     { name: "About Us", path: "/about" },
     { name: "Contact", path: "/contact" },
+    { name: "Gallery", path: "/gallery" },
   ];
 
   // Perfected Apple-style liquid spring physics

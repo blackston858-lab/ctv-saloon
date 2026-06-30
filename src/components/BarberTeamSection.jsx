@@ -5,22 +5,22 @@ const teamMembers = [
   {
     name: "James Anderson",
     title: "Master Barber",
-    img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80",
+    img: "user1.avif",
   },
   {
     name: "William Carter",
     title: "Styling Specialist",
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+    img: "user2.avif",
   },
   {
     name: "Benjamin Clark",
     title: "Beard Specialist",
-    img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    img: "user3.avif",
   },
   {
     name: "Liam Mitchell",
     title: "Shave Expert",
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+    img: "user4.jfif",
   },
 ];
 

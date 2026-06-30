@@ -1,15 +1,15 @@
 // ── Gallery images ──
 const galleryImages = [
-  "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=500&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1620331350568-acb12c7011f4?w=500&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&fit=crop&q=80",
+  "hairstyle1.jfif",
+  "hairstyle2.jfif",
+  "hairstyle3.jfif",
+  "hairstyle4.jfif",
+  "hairstyle5.jfif",
 ];
 
-const GalleryTeaser = () => {
+const SaloonGallery = () => {
   return (
-    <section className="py-32 border-t border-[#E6DFD3]/[0.06] bg-[#0A1916]">
+    <section className="py-32 border-t border-[#E6DFD3]/[0.06] bg-[#1B4D43]/[0.02] ">
       <div className="max-w-7xl mx-auto px-6 md:px-12 mb-16 text-center">
         <span className="text-[#E6DFD3]/70 text-[10px] tracking-[0.45em] uppercase block mb-3 font-bold">
           Gallery Details
@@ -41,4 +41,4 @@ const GalleryTeaser = () => {
   );
 };
 
-export default GalleryTeaser;
+export default SaloonGallery;

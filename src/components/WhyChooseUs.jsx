@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
           {/* Main Barber Work Image */}
           <div className="w-full h-full rounded-2xl overflow-hidden shadow-2xl border border-[#F7F4ED]/10">
             <img
-              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80"
+              src="barber-work.avif"
               alt="Professional Barber at Work"
               className="w-full h-full object-cover"
             />
@@ -63,17 +63,17 @@ const WhyChooseUs = () => {
             <div className="flex items-center -space-x-3">
               <img
                 className="w-8 h-8 rounded-full border-2 border-white object-cover"
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80"
+                src="user1.avif"
                 alt="Client 1"
               />
               <img
                 className="w-8 h-8 rounded-full border-2 border-white object-cover"
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+                src="user2.avif"
                 alt="Client 2"
               />
               <img
                 className="w-8 h-8 rounded-full border-2 border-white object-cover"
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80"
+                src="user3.avif"
                 alt="Client 3"
               />
             </div>

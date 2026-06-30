@@ -110,7 +110,7 @@ const Hero = () => {
           {/* Main photo */}
           <div className="absolute top-0 right-0 w-[78%] h-[85%] rounded-[28px] overflow-hidden shadow-xl">
             <img
-              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&fit=crop&q=80"
+              src="hairstyling.jfif"
               alt="Hair styling session"
               className="w-full h-full object-cover"
             />
@@ -121,7 +121,7 @@ const Hero = () => {
             <p className="text-[#8A8A85] text-[11px] mb-2 font-medium">Next available slot</p>
             <div className="flex items-center gap-3">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&fit=crop&q=80"
+                src="user1.avif"
                 alt="Stylist"
                 className="w-10 h-10 rounded-full object-cover"
               />
