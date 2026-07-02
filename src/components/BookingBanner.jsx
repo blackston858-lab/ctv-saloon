@@ -1,9 +1,6 @@
 import { Link } from "react-router";
 
-// ── BookingBanner ──
-// Closing CTA — dark teal instead of the old cream "light section,"
-// so the page ends on the same brand color it opened with rather
-// than switching palette for one block.
+ 
 
 const BookingBanner = () => {
   return (
