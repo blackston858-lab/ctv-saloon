@@ -5,6 +5,7 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Book from "./pages/Book";
+import Login from "./pages/Login";
  
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/book" element={<Book />} />
+          <Route path="/login" element={<Login />} />
           
         </Routes>
 
