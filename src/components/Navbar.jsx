@@ -92,7 +92,7 @@ const Navbar = () => {
 
           {/* Book */}
           <Link
-            to="/booking"
+            to="/book"
             className="bg-[#1B4D43] hover:bg-[#133831] text-white text-sm font-semibold px-6 py-2.5 rounded-full shadow-md transition"
           >
             Book Appointment
@@ -155,7 +155,7 @@ const Navbar = () => {
               </Link>
 
               <Link
-                to="/booking"
+                to="/book"
                 onClick={() => setIsOpen(false)}
                 className="w-full bg-[#1B4D43] text-white text-center font-semibold text-sm py-3 rounded-xl shadow-md block hover:bg-[#133831] transition-colors"
               >

@@ -3,6 +3,8 @@ import { FaInstagram } from "react-icons/fa";
 import { LuLeaf, LuRuler, LuCoffee } from "react-icons/lu";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Booking from "../components/Booking";
+import BookingBanner from "../components/BookingBanner";
 
 const stylists = [
   {
@@ -115,6 +117,7 @@ const About = () => {
       </section>
 
       <Footer />
+      
     </div>
   );
 };
