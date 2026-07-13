@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router";
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from "framer-motion";
 import { FiArrowRight, FiArrowLeft, FiCheck  } from "react-icons/fi";
 import Navbar from "../components/Navbar";

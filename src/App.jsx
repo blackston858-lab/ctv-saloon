@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Book from "./pages/Book";
 import Login from "./pages/Login";
- 
+import Signup from "./pages/Signup";
 
 const App = () => {
   return (
@@ -22,12 +22,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/book" element={<Book />} />
           <Route path="/login" element={<Login />} />
-          
+          <Route path="/signup" element={<Signup />} />
         </Routes>
-
-      
-        
-        
       </div>
     </BrowserRouter>
   );
