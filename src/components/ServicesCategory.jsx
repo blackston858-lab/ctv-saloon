@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // Expanded data directly matching the 8 items and pricing structure from image_a2c2a1.png
 const services = [

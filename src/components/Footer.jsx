@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookF, FaPinterestP } from "react-icons/fa";
 import { FiCheck } from "react-icons/fi";
 

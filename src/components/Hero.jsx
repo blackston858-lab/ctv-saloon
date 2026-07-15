@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FiArrowRight, FiStar } from "react-icons/fi";
 

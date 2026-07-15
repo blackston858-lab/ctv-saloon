@@ -27,6 +27,7 @@ const Home = () => {
         <SaloonGallery/>
         
          <Footer />
+         
       </div>
    );
 };

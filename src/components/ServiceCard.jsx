@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // ── ServiceCard ──
 // Was a white card on a white page (so it disappeared into the

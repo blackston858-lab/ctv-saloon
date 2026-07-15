@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // Direct production Unsplash IDs targeting portraits of actual barbers
 const teamMembers = [

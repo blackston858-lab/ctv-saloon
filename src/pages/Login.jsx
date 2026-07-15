@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import   { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiLock, FiEye, FiEyeOff, FiStar, FiArrowRight } from 'react-icons/fi';
+import { FiMail, FiLock, FiEye, FiEyeOff,   FiArrowRight } from 'react-icons/fi';
 import { RiScissorsCutLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 

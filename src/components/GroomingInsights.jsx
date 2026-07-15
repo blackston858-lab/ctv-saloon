@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // ── Articles — each tied to an actual service category, not generic
 // "blog post" filler, so this section earns its place on a salon site ──
