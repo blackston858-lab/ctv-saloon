@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link, useNavigate } from "react-router-dom";
 
 // ── ReadyCTA ──
 // "Ready for a fresh new look?" — mini booking widget sitting directly
@@ -7,15 +8,15 @@ import { motion } from "framer-motion";
 // this is a teaser that hands off to the real /book flow on submit.
 
 const Booking = () => {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
   const [service, setService] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Hands off to the full booking page — this widget is intentionally
-    // shallow, not a duplicate of the real multi-step flow in Book.jsx
-    window.location.href = "/book";
+    // Smoothly navigates to the full booking page without page refresh
+    navigate("/book");
   };
 
   return (
@@ -39,12 +40,12 @@ const Booking = () => {
               Book your appointment now and experience the Maison Noir
               difference.
             </p>
-            <a
-              href="/book"
+            <Link
+              to="/book"
               className="inline-flex items-center bg-[#1B4D43] hover:bg-[#163e36] text-white px-7 py-3.5 rounded-full text-xs tracking-widest uppercase font-bold transition-colors duration-200"
             >
               Book Appointment
-            </a>
+            </Link>
           </div>
 
           {/* Right — quick-pick widget */}
@@ -89,7 +90,7 @@ const Booking = () => {
 
             <button
               type="submit"
-              className="bg-[#1B4D43] hover:bg-[#163e36] text-white py-3 rounded-full text-xs tracking-widest uppercase font-bold transition-colors duration-200"
+              className="w-full bg-[#1B4D43] hover:bg-[#163e36] text-white py-3.5 rounded-full text-xs tracking-widest uppercase font-bold transition-colors duration-200 cursor-pointer"
             >
               Book Now
             </button>
